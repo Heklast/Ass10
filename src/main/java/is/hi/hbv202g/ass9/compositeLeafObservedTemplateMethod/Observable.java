@@ -1,0 +1,36 @@
+package is.hi.hbv202g.ass9.compositeLeafObservedTemplateMethod;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/******************************************************************************
+ *  Nafn: Hekla Scheving Thorsteinsson
+ *  Tölvupóstur: hst10@hi.is
+ *
+ *  Lýsing: Lýsing á hvað forritið gerir, inntak, útreikningar, úttak
+ *
+ *
+ *****************************************************************************/
+
+
+public abstract class Observable {
+    private List<Observer> observers;
+
+    public Observable() {
+        observers = new ArrayList<Observer>();
+    }
+
+    public void attach(Observer observer) {
+        observers.add(observer);
+    }
+
+    public void detach(Observer observer) {
+        observers.remove(observer);
+    }
+
+    public void notifyObservers() {
+        for (Observer observer : observers) {
+            observer.update();
+        }
+    }
+}

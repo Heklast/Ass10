@@ -1,0 +1,14 @@
+package is.hi.hbv202g.ass9.compositeLeafObservedTemplateMethod;
+
+/******************************************************************************
+ *  Nafn: Hekla Scheving Thorsteinsson
+ *  Tölvupóstur: hst10@hi.is
+ *
+ *  Lýsing: Lýsing á hvað forritið gerir, inntak, útreikningar, úttak
+ *
+ *
+ *****************************************************************************/
+
+public interface Observer {
+    void update();
+}

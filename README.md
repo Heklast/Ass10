@@ -26,8 +26,8 @@ Both the implementation and the tests are in Java package `is.hi.hbv202g.ass9`, 
 -`pom.xml` supports to execute a main method
 
 ## License
--[License link: ](LICENSE)
+-[License link](LICENSE)
 
 ## Link to design.md
--[UML class diagram link: ](src/site/markdown/design.md)
+-[UML class diagram link](src/site/markdown/design.md)
 
